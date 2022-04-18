@@ -1,5 +1,5 @@
 <?php
-    $conexion = mysqli_connect("localhost", "root", "root", "db_invernadero");
+    $conexion = mysqli_connect("localhost", "iot", "iot", "db_invernadero");
     if (mysqli_connect_errno()) {
         printf("Falló la conexión: %s\n", mysqli_connect_error());
         exit();
